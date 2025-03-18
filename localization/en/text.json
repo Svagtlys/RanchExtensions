@@ -1,0 +1,25 @@
+{
+    "BUILDINGS": {
+        "MILKING_BARN_NAME": "Dairy Barn"
+    },
+
+    "BUILDING_DESCRIPTIONS": {
+        "MILKING_BARN_DESC": "An additional dairy barn for milking cows"
+    },
+
+    "FUNCTIONS": {
+        "BUILDING_FUNCTION_MILKING_BARN_NAME": "Dairy farmer"
+    },
+
+    "FUNCTION_DESCRIPTIONS": {
+        "BUILDING_FUNCTION_MILKING_BARN_DESC": "I am collecting milk"
+    },
+
+    "UNLOCKABLES": {
+        "DAIRY_FARMING_IMPROVEMENT_NAME": "Dairy Farming Improvements"
+    },
+
+    "UNLOCKABLE_DESCRIPTIONS": {
+        "DAIRY_FARMING_IMPROVEMENT_DESC": "Allows building milking barns on dairy farms"
+    }
+}
