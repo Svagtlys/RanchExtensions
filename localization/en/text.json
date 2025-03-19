@@ -1,27 +1,33 @@
 {
     "BUILDINGS": {
-        "MILKING_BARN_NAME": "Milking Barn"
+        "MILKING_BARN_NAME": "Milking Barn",
+        "SHEARING_SHED_NAME": "Shearing Shed"
     },
 
     "BUILDING_DESCRIPTIONS": {
-        "MILKING_BARN_DESC": "An additional dairy barn for milking cows"
+        "MILKING_BARN_DESC": "An additional milking barn for milking cows",
+        "SHEARING_SHED_DESC": "An additional shearing shed for shearing sheep"
     },
 
     "FUNCTIONS": {
         "BUILDING_FUNCTION_MILKING_BARN_NAME": "Dairy farmer",
+        "BUILDING_FUNCTION_SHEARING_SHED_NAME": "Shearer",
         "BUILDING_FUNCTION_NIL_NAME": ""
     },
 
     "FUNCTION_DESCRIPTIONS": {
         "BUILDING_FUNCTION_MILKING_BARN_DESC": "I am collecting milk",
+        "BUILDING_FUNCTION_SHEARING_SHED_DESC": "I am shearing sheep",
         "BUILDING_FUNCTION_NIL_DESC": ""
     },
 
     "UNLOCKABLES": {
-        "DAIRY_FARMING_IMPROVEMENT_NAME": "Dairy Farm Improvement"
+        "DAIRY_FARMING_IMPROVEMENT_NAME": "Dairy Farm Improvement",
+        "SHEEP_FARMING_IMPROVEMENT_NAME": "Sheep Farm Improvement"
     },
 
     "UNLOCKABLE_DESCRIPTIONS": {
-        "DAIRY_FARMING_IMPROVEMENT_DESC": "Unlocks the Milking Barn improvement for the Dairy Farm"
+        "DAIRY_FARMING_IMPROVEMENT_DESC": "Unlocks the Milking Barn improvement for the Dairy Farm",
+        "SHEEP_FARMING_IMPROVEMENT_DESC": "Unlocks the Shearing Shed improvement for the Sheep Farm"
     }
 }

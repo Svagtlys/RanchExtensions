@@ -1,7 +1,7 @@
 local RanchExtensions = ...
 
 
--- Register dairy barn asset
+-- Register milking barn asset
 RanchExtensions:registerAssetId("models/dairy.fbx/Prefab/Milking_Barn", "PREFAB_MILKING_BARN")
 
 -- Override the dairy farm part to remove the function

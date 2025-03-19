@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="1baec566-f1b0-4bad-9cb6-92cb8f489b11">
+	<meta id="665378db-fa48-454b-8b9c-08aba4eddc9d" type="group" folder="true" name="Materials">
+		<meta id="44da17a5-cf4d-4a0c-b5db-26805c2ca1a4" name="Material"/>
+	</meta>
+	<meta id="31a5a583-54f4-4159-b83b-d4b32a581c56" type="group" folder="true" name="Meshes">
+		<meta id="f1fed673-f2bf-490c-b681-8b2ff5e23f73" name="barn_base_Material"/>
+	</meta>
+	<meta id="c04557c9-241f-43f2-9306-d26360f1730c" name="Prefab">
+		<meta id="f1884499-faba-4eb5-a5e8-9780b8f39501" name="Milking_Barn">
+			<meta id="8f6cd9d7-420d-45a0-8c49-2afcb2889150" name="barn_base"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
+	<Md5Checksum value="2ccba4440bbef3353fcd1d3752fdcaab"/>
+	<ModelVersion value="36"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="barn_base"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Milking_Barn"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material"/>
+		</Item>
+	</MaterialList>
+</importer>
+

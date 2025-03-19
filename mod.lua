@@ -11,3 +11,4 @@ RanchExtensions:registerAsset({
 
 
 RanchExtensions:dofile("scripts/cowExtensions.lua")
+RanchExtensions:dofile("scripts/SheepExtensions.lua")
