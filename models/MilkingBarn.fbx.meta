@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="f776f300-5e1d-4b0f-ad02-423f13e7a508">
+	<meta id="9a9d1a81-d1e3-489e-8a9d-64efbb170e4b" type="group" folder="true" name="Materials">
+		<meta id="44040cd0-feb5-4288-a5ea-4d14567c82cf" name="Material"/>
+		<meta id="89d24501-7a6e-41cf-b9b7-c5bbdcba2b1e" name="thatch"/>
+	</meta>
+	<meta id="ccb08e97-0671-4257-b4bd-9bd7c6092522" type="group" folder="true" name="Meshes">
+		<meta id="4cfdf859-59ea-4a63-9e4c-9e7b812a0acb" name="Body_Material"/>
+		<meta id="434537a9-30b2-4c6d-a1b8-cd2e56d96259" name="Roof_thatch"/>
+	</meta>
+	<meta id="c5c76459-592e-4de0-94da-4e4a3b932f57" name="Prefab">
+		<meta id="ca7a981a-a172-48cf-98a3-a92b075b3afa" name="TestBuilding">
+			<meta id="86243601-d86e-4a11-aa90-1d6efc9f906c" name="Body"/>
+			<meta id="35be09fb-23ad-44eb-a558-2d6bc0fcf2f9" name="Roof"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
+	<Md5Checksum value="71f6626a590e2458d6d9f538d4bbb4c1"/>
+	<ModelVersion value="36"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Body"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TestBuilding"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="thatch"/>
+		</Item>
+	</MaterialList>
+</importer>
+

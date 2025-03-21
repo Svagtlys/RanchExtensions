@@ -1,7 +1,7 @@
 local RanchExtensions = ...
 
 -- Register shearing shed asset
-RanchExtensions:registerAssetId("models/dairycopy.fbx/Prefab/Milking_Barn", "PREFAB_SHEARING_SHED")
+RanchExtensions:registerAssetId("models/ShearingShed.fbx/Prefab/TestBuilding", "PREFAB_SHEARING_SHED")
 
 -- Override the sheep farm part to remove the function
 RanchExtensions:overrideAsset({
