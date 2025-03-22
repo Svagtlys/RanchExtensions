@@ -14,9 +14,6 @@ RanchExtensions:overrideAsset({
 RanchExtensions:overrideAsset({
     Id = "BUILDING_DAIRY_FARM",
     AssetCoreBuildingPart = "BUILDING_PART_DAIRY_FARM",
-    AssetBuildingPartList = {
-        "BUILDING_PART_DAIRY_FARM_MILKING_BARN"
-    },
     AssetBuildingFunction = "BUILDING_FUNCTION_DAIRY_FARM"
 })
 
